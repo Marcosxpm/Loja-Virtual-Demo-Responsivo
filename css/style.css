@@ -1,0 +1,62 @@
+/* Google Fonts Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container-fluid{
+    background: linear-gradient(to right, rgb(255, 255, 74), rgb(252, 208, 0), rgb(255, 193, 18), rgb(255, 193, 18), rgb(255, 138, 0), rgb(255, 95, 95), rgb(255, 37, 58), rgb(255, 55, 168), rgb(199, 57, 255), rgb(164, 0, 225), rgb(46, 206, 255), rgb(0, 134, 255), rgb(114, 247, 114), rgb(0, 214, 4));
+    height: 7px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(255, 255, 74), rgb(252, 208, 0), rgb(255, 193, 18), rgb(255, 193, 18), rgb(255, 138, 0), rgb(255, 95, 95), rgb(255, 37, 58), rgb(255, 55, 168), rgb(199, 57, 255), rgb(164, 0, 225), rgb(46, 206, 255), rgb(0, 134, 255), rgb(114, 247, 114), rgb(0, 214, 4));
+}
+body{
+    min-height: 372;
+}
+.wrapper{
+    min-height: 100vh;
+}
+hr{
+    height:40px; 
+	border: 3px solid; 
+	border-color: rgb(213, 37, 37);
+    border-radius: 20px;
+    color: brown;
+}
+h1{
+    text-align: center;
+}
+/*Inicio categoria*/
+.vitrine{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding: 10px;
+}
+.vitrine div img{
+border: 3px solid rgba(21, 38, 146, 0.752);
+padding: 2px;
+border-radius: 50%;
+margin: 2px;
+justify-content: center;
+height: 100px;
+width: 100px;
+text-align: center;
+}
+
+/* Fim categoria*/
+.sub-titulo{
+font-size: medium;
+text-align: center;
+}
+  .promotion{
+      max-width: 100%;
+      background: #000000;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      padding-right: 9px;
+  }
+  .titulo-promotion{
+      color: #fff;
+      margin: 8px;
+  }
